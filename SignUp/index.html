@@ -4,10 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SignupForm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>SignupForm</h1>
-    <h2>Nouvelle branche crée</h2>
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="banner">
+          <h1>Bonjour, comment allez vous ?</h1>
+          <p>Entre tes données personnelles et commence une bonne journée</p>
+        </div>
+        <div class="green-bg">
+          <button type="button">S'inscrire</button>
+        </div>
+        <form class="signup-form">
+          <h1>Crée un compte</h1>
+          <div class="social-media">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <p>ou utilise ton email pour l'enregistrement</p>
+          <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Nom" />
+          </div>
+          <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Mots de passe" />
+          </div>
+          <button
+            type="button
+          "
+          >
+            Inscription
+          </button>
+        </form>
+      </div>
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
