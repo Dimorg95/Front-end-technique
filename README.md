@@ -6,6 +6,7 @@
 2. JavaScript
 3. Animation
 4. Mise en page
+5. 3D
 
 ### Pour le moment quelque projet son disponible et accesible via
 
