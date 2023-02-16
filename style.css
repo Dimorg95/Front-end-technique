@@ -46,6 +46,7 @@ ul li {
   border-radius: 25%;
   background-color: #208391;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
 }
 
 ul a {
