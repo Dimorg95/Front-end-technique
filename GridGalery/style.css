@@ -17,7 +17,7 @@
   grid-template-columns: repeat(8, minmax(10px, 1fr));
   grid-template-rows: repeat(4, 10vw);
   grid-gap: 16px;
-  background-color: #0d420d;
+  background-color: #6a36be;
   padding: 16px;
 }
 
